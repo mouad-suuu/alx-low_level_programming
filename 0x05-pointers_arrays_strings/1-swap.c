@@ -9,9 +9,9 @@ i#include "main.h"
  */
 void swap_int(int *a, int *b)
 {
-	int temp;
+	int m;
 
-	temp = *a;
+	m= *a;
 	*a = *b;
-	*b = temp;
+	*b = m;
 }
